@@ -31,12 +31,9 @@
             "scripts": [
               {
                 "input": "node_modules/document-register-element/build/document-register-element.js"
-<<<<<<< HEAD
               },
               {
                 "input": "node_modules/document-register-element/build/document-register-element.js"
-=======
->>>>>>> 1-components
               }
             ]
           },

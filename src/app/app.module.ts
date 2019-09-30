@@ -1,7 +1,6 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
 
-<<<<<<< HEAD
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
@@ -22,23 +21,6 @@ import {CourseTitleComponent} from './course-title/course-title.component';
     providers: [],
     bootstrap: [AppComponent],
     entryComponents: [CourseTitleComponent]
-=======
-import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CourseCardComponent } from './course-card/course-card.component';
-
-@NgModule({
-  declarations: [
-    AppComponent,
-    CourseCardComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
->>>>>>> 1-components
 })
 export class AppModule {
 
